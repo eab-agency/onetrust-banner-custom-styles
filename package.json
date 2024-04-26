@@ -1,0 +1,13 @@
+{
+	"name": "onetrust-banner-custom-styles",
+	"version": "1.0.0",
+	"author": "Andrei Olea <aolea@eab.com>",
+	"license": "MIT",
+	"scripts": {
+		"build": "sass scss/*.scss css/style.css",
+		"dev": "sass --watch scss/*.scss css/style.css"
+	},
+	"dependencies": {
+		"sass": "^1.75.0"
+	}
+}

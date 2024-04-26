@@ -1,0 +1,12 @@
+# Node modules
+node_modules/
+
+# Dependency directories
+yarn.lock
+
+# Build outputs
+# css/
+
+# System files
+.DS_Store
+
