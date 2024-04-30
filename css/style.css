@@ -104,6 +104,7 @@
   height: auto;
   min-height: auto;
   display: flex;
+  justify-content: flex-end;
 }
 #onetrust-consent-sdk #onetrust-pc-sdk .ot-pc-header .ot-pc-logo {
   display: none;
@@ -150,6 +151,10 @@
 }
 #onetrust-consent-sdk #onetrust-pc-sdk .ot-pc-footer-logo a img {
   width: 8em;
+}
+#onetrust-consent-sdk #onetrust-pc-sdk.otPcPanel.ot-animated {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
 }
 
 /*# sourceMappingURL=style.css.map */

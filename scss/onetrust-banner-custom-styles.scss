@@ -3,7 +3,7 @@
 // ==============================
 // Variables
 $modalBg: rgba(0, 0, 0, 0.8);
-$primaryColor: #0069bf; // 5.56 contrast ratio EAB Navy Blue
+$primaryColor: #0069bf; // 5.56 contrast ratio
 $contentMaxWidth: 85rem;
 $buttonBorderRadius: 0.5em;
 $maxQuery: 85rem;
@@ -134,6 +134,7 @@ $minQuery: 45rem;
             height: auto;
             min-height: auto;
             display: flex;
+            justify-content: flex-end;
 
             .ot-pc-logo {
                 display: none;
@@ -198,6 +199,11 @@ $minQuery: 45rem;
                     width: 8em;
                 }
             }
+        }
+
+        &.otPcPanel.ot-animated {
+            -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;
         }
     }
 }
